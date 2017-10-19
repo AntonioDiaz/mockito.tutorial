@@ -1,4 +1,4 @@
-package com.adiaz;
+package com.adiaz.data.api;
 
 import static org.junit.Assert.assertTrue;
 
