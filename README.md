@@ -1,32 +1,31 @@
 # Udemy Mockito Tutorial
-
-* [Links](#links)
-* [Step 01 Set up an Eclipse Project with JUnit and Mockito frameworks. First Green Bar.](#step-01---set-up-an-eclipse-project-with-junit-and-mockito-frameworks-first-green-bar)
-* [Step 02 : Example to start understanding why we need mocks.](#step-02---example-to-start-understanding-why-we-need-mocks)
-* [Step 03 : What is a stub? Create an unit test using Stub? Disadvantages of Stubs.](#step-03---what-is-a-stub--create-an-unit-test-using-stub--disadvantages-of-stubs)
-* [Step 04 : Your first Mockito code! Hurrah!!! Lets use Mockito to mock TodoService.](#step-04---your-first-mockito-code--hurrah----lets-use-mockito-to-mock-todoservice)
-* [Step 05 : Stubbing variations with Mockito.](#step-05---stubbing-variations-with-mockito)
-* [Some Theory : Mockito vs EasyMock](#some-theory---mockito-vs-easymock)
-* [Step 06 : Behavior-Driven Development (BDD)](#step-06---behavior-driven-development--bdd-)
-* [Step 07 : How to verify calls on a mock?](#step-07---how-to-verify-calls-on-a-mock-)
-* [Step 08 : How to capture an argument which is passed to a mock?](#step-08---how-to-capture-an-argument-which-is-passed-to-a-mock-)
-* [Step 09 : Hamcrest Matchers.](#step-09---hamcrest-matchers)
-* [Step 10 : Mockito Annotations.](#step-10---mockito-annotations)
-* [Step 11 : JUnit Rules.](#step-11---junit-rules)
-* [Step 12 : Real world Example with Spring](#step-12---real-world-example-with-spring)
-* [Step 13 : What is a spy? How to spy with Mockito?](#step-13---what-is-a-spy--how-to-spy-with-mockito-)
-* [Step 14 : Some Theory : Why does Mockito not allow stubbing final and private methods?](#step-14---some-theory---why-does-mockito-not-allow-stubbing-final-and-private-methods-)
-* [Step 15 : Using PowerMock and Mockito to mock a Static Method.](#step-15---using-powermock-and-mockito-to-mock-a-static-method)
-* [Step 16 : Using PowerMock and Mockito to invoke a private Method.](#step-16---using-powermock-and-mockito-to-invoke-a-private-method)
-* [Step 17 : Using PowerMock and Mockito to mock a constructor.](#step-17---using-powermock-and-mockito-to-mock-a-constructor)
-* [Step 18 : Good Unit Tests.](#step-18---good-unit-tests)
+- [Links](#links)
+- [Step 01 : Set up an Eclipse Project with JUnit and Mockito frameworks. First Green Bar.](#step-01--set-up-an-eclipse-project-with-junit-and-mockito-frameworks-first-green-bar)
+- [Step 02 : Example to start understanding why we need mocks.](#step-02--example-to-start-understanding-why-we-need-mocks)
+- [Step 03 : What is a stub? Create an unit test using Stub? Disadvantages of Stubs.](#step-03--what-is-a-stub-create-an-unit-test-using-stub-disadvantages-of-stubs)
+- [Step 04 : Your first Mockito code! Hurrah!!! Lets use Mockito to mock TodoService.](#step-04--your-first-mockito-code-hurrah-lets-use-mockito-to-mock-todoservice)
+- [Step 05 : Stubbing variations with Mockito.](#step-05--stubbing-variations-with-mockito)
+- [Some Theory : Mockito vs EasyMock](#some-theory--mockito-vs-easymock)
+- [Step 06 : Behavior-Driven Development (BDD)](#step-06--behavior-driven-development-bdd)
+- [Step 07 : How to verify calls on a mock?](#step-07--how-to-verify-calls-on-a-mock)
+- [Step 08 : How to capture an argument which is passed to a mock?](#step-08--how-to-capture-an-argument-which-is-passed-to-a-mock)
+- [Step 09 : Hamcrest Matchers.](#step-09--hamcrest-matchers)
+- [Step 10 : Mockito Annotations.](#step-10--mockito-annotations)
+- [Step 11 : JUnit Rules.](#step-11--junit-rules)
+- [Step 12 : Real world Example with Spring](#step-12--real-world-example-with-spring)
+- [Step 13 : What is a spy? How to spy with Mockito?](#step-13--what-is-a-spy-how-to-spy-with-mockito)
+- [Step 14 : Some Theory : Why does Mockito not allow stubbing final and private methods?](#step-14--some-theory--why-does-mockito-not-allow-stubbing-final-and-private-methods)
+- [Step 15 : Using PowerMock and Mockito to mock a Static Method.](#step-15--using-powermock-and-mockito-to-mock-a-static-method)
+- [Step 16 : Using PowerMock and Mockito to invoke a private Method.](#step-16--using-powermock-and-mockito-to-invoke-a-private-method)
+- [Step 17 : Using PowerMock and Mockito to mock a constructor.](#step-17--using-powermock-and-mockito-to-mock-a-constructor)
+- [Step 18 : Good Unit Tests.](#step-18--good-unit-tests)
 
 ## Links
 * Udemy Course: https://www.udemy.com/mockito-tutorial-with-junit-examples
 * Instructor repository: https://github.com/in28minutes/MockitoTutorialForBeginners/
 * My repository: https://github.com/AntonioDiaz/mockito.tutorial
 
-## Step 01 Set up an Eclipse Project with JUnit and Mockito frameworks. First Green Bar.
+## Step 01 : Set up an Eclipse Project with JUnit and Mockito frameworks. First Green Bar.
 * https://github.com/in28minutes/MockitoTutorialForBeginners/blob/master/Step01.md
 * Add maven dependencies:
 ```xml
