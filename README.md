@@ -1,7 +1,7 @@
 # Udemy Mockito Tutorial
 
 * [Links](#links)
-* [Step 01 : Set up an Eclipse Project with JUnit and Mockito frameworks. First Green Bar.](#step-01---set-up-an-eclipse-project-with-junit-and-mockito-frameworks-first-green-bar)
+* [Step 01 Set up an Eclipse Project with JUnit and Mockito frameworks. First Green Bar.](#step-01---set-up-an-eclipse-project-with-junit-and-mockito-frameworks-first-green-bar)
 * [Step 02 : Example to start understanding why we need mocks.](#step-02---example-to-start-understanding-why-we-need-mocks)
 * [Step 03 : What is a stub? Create an unit test using Stub? Disadvantages of Stubs.](#step-03---what-is-a-stub--create-an-unit-test-using-stub--disadvantages-of-stubs)
 * [Step 04 : Your first Mockito code! Hurrah!!! Lets use Mockito to mock TodoService.](#step-04---your-first-mockito-code--hurrah----lets-use-mockito-to-mock-todoservice)
@@ -26,7 +26,7 @@
 * Instructor repository: https://github.com/in28minutes/MockitoTutorialForBeginners/
 * My repository: https://github.com/AntonioDiaz/mockito.tutorial
 
-## Step 01 : Set up an Eclipse Project with JUnit and Mockito frameworks. First Green Bar.
+## Step 01 Set up an Eclipse Project with JUnit and Mockito frameworks. First Green Bar.
 * https://github.com/in28minutes/MockitoTutorialForBeginners/blob/master/Step01.md
 * Add maven dependencies:
 ```xml
