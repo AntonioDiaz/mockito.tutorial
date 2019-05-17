@@ -25,7 +25,6 @@
 * Udemy Course: https://www.udemy.com/mockito-tutorial-with-junit-examples
 * Instructor repository: https://github.com/in28minutes/MockitoTutorialForBeginners/
 * My repository: https://github.com/AntonioDiaz/mockito.tutorial
-* Certificate of completion: https://www.udemy.com/certificate/UC-FXX6JW9W/
 
 ## Step 01 : Set up an Eclipse Project with JUnit and Mockito frameworks. First Green Bar.
 * https://github.com/in28minutes/MockitoTutorialForBeginners/blob/master/Step01.md
